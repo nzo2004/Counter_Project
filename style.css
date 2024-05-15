@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /*
+    display: flex; = yan yana veya üst üste sıralamak için kullanılır
+
+    height: 100vh; = yüksekliğin kaçta kaçını kullansın demektir burda %100
+
+    align-items: center; = elemanları ortalamak denir
+
+    justify-content: center; = içerdeki öğeleri ortalamak için kullanılır
+    */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+span{
+    font-size:4rem;
+    color:white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    width: 200px;
+    height: 30px;
+    margin: 2px 0;
+    border-radius: 20px;
+}
