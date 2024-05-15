@@ -26,12 +26,15 @@ buttonIncerase.addEventListener('click',()=>{
 
 buttonDecrease.addEventListener('click',()=>{
     if(count==0){
-        
-    }else{
-        count-=1;
-        counterShow.innerHTML=count;
+    
     }
-})
+    else{
+        count-=1;
+    counterShow.innerHTML=count;
+
+    }
+    
+    )
 
 //Resetleme işlemini bu fonksiyonu ile yapıyoruz
 
